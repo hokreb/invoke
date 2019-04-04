@@ -525,7 +525,7 @@ With deduplication turned off (see below), the above would execute ``clean`` ->
     However, two separate references to ``call(clean, 'html')`` *would* become
     deduplicated.
     
-.. note:
+.. note::
     Two tasks are handled as equal if methods and methods body are the same, 
     even if they are in different modules (which get imported), these methods
     are treated as equal.    
